@@ -14,6 +14,21 @@ const projects = [
       "Memahami koordinat X dan Y di Scratch"
     ],
     pdf: "tutorial/latihan01.pdf"
+  },
+   {
+    title: "Latihan 04 - Game Scratch",
+    image: "images/latihan04.jpg",
+    scratchId: "1205893568",
+    belajar: [
+      "Menggunakan blok gerak untuk mengontrol sprite",
+      "Belajar kondisi jika menyentuh objek",
+      "Menambahkan skor saat berhasil"
+    ],
+    tujuan: [
+      "Melatih logika pemrograman dasar",
+      "Memahami koordinat X dan Y di Scratch"
+    ],
+    pdf: "tutorial/latihan01.pdf"
   }
 ];
 
