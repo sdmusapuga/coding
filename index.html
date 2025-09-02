@@ -2,66 +2,40 @@
 <html lang="id">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Galeri Project Coding SD MUSAPUGA</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Game Scratch</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <!-- Header -->
-  <header class="hero-header">
-    <h1>Galeri Project Coding <span>SD MUSAPUGA</span></h1>
-    <p>
-      <strong>Belajar Coding Itu Menyenangkan!</strong> –
-      Dari game sederhana, animasi, hingga aplikasi kecil,
-      semua karya siswa SD MUSAPUGA ditampilkan di sini.
-    </p>
-  </header>
+    <!-- Tombol contoh -->
+    <button class="openModalBtn" data-id="861259209">🎮 Mainkan Game</button>
 
-  <!-- Main Content -->
-  <main>
-    <section class="grid-container" id="projectGrid"></section>
-  </main>
+    <!-- Modal -->
+    <div id="projectModal" class="modal">
+        <span class="close">&times;</span>
 
-  <!-- Footer -->
-  <footer class="site-footer">
-    <p>&copy; 2025 <strong>SD MUSAPUGA</strong> – Ekstrakurikuler Coding</p>
-  </footer>
+        <div class="modal-body">
+            <!-- Game -->
+            <iframe id="modalScratch" allowfullscreen></iframe>
 
-  <!-- Modal -->
-  <div id="modal" class="modal">
-    <div class="modal-content">
-      <button class="close-btn" aria-label="Tutup Popup">&times;</button>
-      <h2 id="modalTitle"></h2>
-  <div class="scratch-container">
-  <iframe 
-    id="modalScratch"
-    allow="fullscreen"
-    allowtransparency="true"
-    frameborder="0"
-    scrolling="no"
-  ></iframe>
-</div>
+            <!-- Materi -->
+            <div class="materi-panel">
+                <h3>Yang Dipelajari</h3>
+                <ul id="materiList"></ul>
 
-      <div class="modal-info">
-        <div class="info-box">
-          <h4>Yang Dipelajari</h4>
-          <ul id="modalBelajar"></ul>
+                <h3>Tujuan</h3>
+                <ul id="tujuanList"></ul>
+
+                <div class="tutorial-btn">
+                    <a id="tutorialLink" href="#" target="_blank">📘 Pelajari</a>
+                </div>
+            </div>
         </div>
-        <div class="info-box">
-          <h4>Tujuan</h4>
-          <ul id="modalTujuan"></ul>
-        </div>
-      </div>
-      <div class="tutorial-btn">
-        <a id="tutorialLink" href="#" target="_blank">📘 Pelajari</a>
-        <button id="fullscreenBtn">⛶ Fullscreen</button>
-      </div>
     </div>
-  </div>
 
-  <!-- Script -->
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
