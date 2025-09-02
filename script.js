@@ -13,7 +13,6 @@ const projects = [
             "Melatih logika pemrograman dasar",
             "Memahami koordinat X dan Y di Scratch"
         ],
-        // langsung pakai link Google Drive (preview atau download, pilih sesuai kebutuhan)
         pdf: "https://drive.google.com/file/d/1LMM-gBYt-oh0i3-BJJBjvk_d3cwNdZqG/view?usp=sharing"
     },
     {
@@ -29,10 +28,10 @@ const projects = [
             "Melatih logika pemrograman dasar",
             "Memahami koordinat X dan Y di Scratch"
         ],
-        pdf: "https://drive.google.com/file/d/XXXXXX/view?usp=sharing" // ganti XXXXXX dengan ID file Drive latihan 04
+        pdf: "https://drive.google.com/file/d/1f_HBQC-Q3bO7VSZfPAvh_IRGcFyfBamh/view?usp=sharing" 
     },
     {
-        title: "Latihan 05 - Game Scratch", // perbaikan judul, sebelumnya dobel "Latihan 04"
+        title: "Latihan 05 - Game Scratch", 
         image: "images/latihan05.jpg",
         scratchId: "1207429223",
         belajar: [
@@ -44,7 +43,7 @@ const projects = [
             "Melatih logika pemrograman dasar",
             "Memahami koordinat X dan Y di Scratch"
         ],
-        pdf: "https://drive.google.com/file/d/YYYYYY/view?usp=sharing" // ganti YYYYYY dengan ID file Drive latihan 05
+        pdf: "https://drive.google.com/file/d/1TTuexrAbSlfF9-bXF76eZb9rPbIRp6pK/view?usp=sharing" 
     }
 ];
 
