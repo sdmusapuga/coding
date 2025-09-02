@@ -27,21 +27,32 @@ const projects = [
     ],
     pdf: "https://drive.google.com/file/d/1LMM-gBYt-oh0i3-BJJBjvk_d3cwNdZqG/view?usp=sharing"
 },
-    {
-        title: "Latihan 04 - Game Scratch",
-        image: "images/latihan04.jpg",
-        scratchId: "1205893568",
-        belajar: [
-            "Menggunakan blok gerak untuk mengontrol sprite",
-            "Belajar kondisi jika menyentuh objek",
-            "Menambahkan skor saat berhasil"
-        ],
-        tujuan: [
-            "Melatih logika pemrograman dasar",
-            "Memahami koordinat X dan Y di Scratch"
-        ],
-        pdf: "https://drive.google.com/file/d/1f_HBQC-Q3bO7VSZfPAvh_IRGcFyfBamh/view?usp=sharing" 
-    },
+   {
+    title: "Modul 02 - GAME LOMPAT & SKOR",
+    image: "images/latihan02.jpg",
+    scratchId: "1205893568",
+    belajar: [
+        "Menggunakan blok acara (when green flag clicked) untuk memulai game",
+        "Mengatur posisi awal sprite kelinci dengan blok go to x: y:",
+        "Membuat gerakan lompat halus menggunakan blok kontrol (repeat, change y)",
+        "Menambahkan efek suara lompat (play sound chirp)",
+        "Membuat variabel 'skor' dengan blok data (set skor to 0, change skor by...)",
+        "Mengontrol skor bertambah saat lompat dan berkurang saat menyentuh musuh (Crab)",
+        "Mengatur kondisi menang (skor = 5) dan kalah (skor = –1) dengan blok if... then",
+        "Menggerakkan musuh (Crab) secara terus menerus via blok forever, glide, dan go to",
+        "Menggunakan logika event-driven dan loop untuk interaksi game dinamis"
+    ],
+    tujuan: [
+        "Melatih algoritma dasar: event-driven programming, loop, dan kondisi",
+        "Mengasah kemampuan problem solving melalui eksperimen dan debugging logika game",
+        "Melatih keterampilan matematika dasar (koordinat, naik turun, penambahan skor)",
+        "Meningkatkan fokus, ketekunan, dan disiplin berpikir dalam menyelesaikan game",
+        "Membantu anak mengembangkan mindset sebagai pembuat (bukan hanya pemain) game digital",
+        "Membangun fondasi praktis pemrograman visual sembari membangkitkan rasa percaya diri"
+    ],
+    pdf: "https://drive.google.com/file/d/1LU3PCvi7utdKZLZzjd7zjWx9usFgBB2z/view?usp=sharing"
+},
+
     {
         title: "Latihan 05 - Game Scratch", 
         image: "images/latihan05.jpg",
