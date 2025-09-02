@@ -1,3 +1,9 @@
+/* Hilangkan kontrol media agar downloader tidak bisa hook */
+iframe::-webkit-media-controls-enclosure,
+iframe::-webkit-media-controls-panel,
+iframe::-webkit-media-controls-play-button {
+  display: none !important;
+}
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -122,6 +128,7 @@ footer.site-footer {
   justify-content: center;
   align-items: center;
   margin-bottom: 15px;
+  position: relative;
 }
 
 .scratch-container iframe {
@@ -130,6 +137,13 @@ footer.site-footer {
   border-radius: 16px;
   border: none;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+}
+.scratch-container::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: transparent;
+  pointer-events: auto; /* cegah klik deteksi dari ekstensi */
 }
 
 .modal-info {
