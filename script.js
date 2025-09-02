@@ -13,6 +13,7 @@ const projects = [
             "Melatih logika pemrograman dasar",
             "Memahami koordinat X dan Y di Scratch"
         ],
+        // langsung pakai link Google Drive (preview atau download, pilih sesuai kebutuhan)
         pdf: "https://drive.google.com/file/d/1LMM-gBYt-oh0i3-BJJBjvk_d3cwNdZqG/view?usp=sharing"
     },
     {
@@ -28,10 +29,10 @@ const projects = [
             "Melatih logika pemrograman dasar",
             "Memahami koordinat X dan Y di Scratch"
         ],
-        pdf: "tutorial/latihan04.pdf"
+        pdf: "https://drive.google.com/file/d/XXXXXX/view?usp=sharing" // ganti XXXXXX dengan ID file Drive latihan 04
     },
     {
-        title: "Latihan 04 - Game Scratch",
+        title: "Latihan 05 - Game Scratch", // perbaikan judul, sebelumnya dobel "Latihan 04"
         image: "images/latihan05.jpg",
         scratchId: "1207429223",
         belajar: [
@@ -43,7 +44,7 @@ const projects = [
             "Melatih logika pemrograman dasar",
             "Memahami koordinat X dan Y di Scratch"
         ],
-        pdf: "tutorial/latihan04.pdf"
+        pdf: "https://drive.google.com/file/d/YYYYYY/view?usp=sharing" // ganti YYYYYY dengan ID file Drive latihan 05
     }
 ];
 
@@ -55,9 +56,9 @@ projects.forEach((proj, index) => {
     card.className = "project-card";
     card.dataset.index = index;
     card.innerHTML = `
-    <img src="${proj.image}" alt="${proj.title}">
-    <div class="project-info"><h3>${proj.title}</h3></div>
-  `;
+        <img src="${proj.image}" alt="${proj.title}">
+        <div class="project-info"><h3>${proj.title}</h3></div>
+    `;
     grid.appendChild(card);
 });
 
@@ -78,7 +79,7 @@ document.querySelectorAll(".project-card").forEach(card => {
         modal.style.display = "flex";
 
         modalTitle.textContent = proj.title;
-        modalScratch.src = `https://scratch.mit.edu/projects/embed/${proj.scratchId}/?autostart=false&ui=false`;
+        modalScratch.src = `https://scratch.mit.edu/projects/embed/${proj.scratchId}/?autostart=true&ui=false`;
         modalBelajar.innerHTML = proj.belajar.map(item => `<li>${item}</li>`).join("");
         modalTujuan.innerHTML = proj.tujuan.map(item => `<li>${item}</li>`).join("");
         tutorialLink.href = proj.pdf;
