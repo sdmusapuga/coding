@@ -1,20 +1,32 @@
 // Data project
 const projects = [
-    {
-        title: "Latihan 01 - Game Scratch",
-        image: "images/latihan01.jpg",
-        scratchId: "1094506269",
-        belajar: [
-            "Menggunakan blok gerak untuk mengontrol sprite",
-            "Belajar kondisi jika menyentuh objek",
-            "Menambahkan skor saat berhasil"
-        ],
-        tujuan: [
-            "Melatih logika pemrograman dasar",
-            "Memahami koordinat X dan Y di Scratch"
-        ],
-        pdf: "https://drive.google.com/file/d/1LMM-gBYt-oh0i3-BJJBjvk_d3cwNdZqG/view?usp=sharing"
-    },
+  {
+    title: "Latihan 01 - GAME FEEDING FRENZY",
+    image: "images/latihan01.jpg",
+    scratchId: "1094506269",
+    belajar: [
+        "Menggunakan blok gerak (move, turn, point towards) untuk mengontrol sprite sesuai input",
+        "Menerapkan blok kontrol (when green flag clicked, forever, if...then) untuk membuat alur permainan",
+        "Memanfaatkan sensor 'touching' untuk deteksi interaksi antar objek",
+        "Membuat variabel skor dengan blok data (set, change by, show variable)",
+        "Mengatur posisi menggunakan koordinat X dan Y untuk mempelajari sistem kartesius",
+        "Menggunakan glide to random position untuk menghasilkan gerakan acak (randomization)",
+        "Menambahkan audio interaktif dengan blok play sound agar game lebih hidup",
+        "Mengatur sprite dengan show, hide, dan change size untuk efek visual",
+        "Menduplikasi dan memodifikasi sprite untuk variasi permainan",
+        "Memahami konsep inti pemrograman: loop, kondisi, variabel, event, dan random"
+    ],
+    tujuan: [
+        "Melatih anak berpikir logis dan memahami hubungan sebab-akibat",
+        "Mengembangkan keterampilan problem solving melalui percobaan dan debugging",
+        "Mengasah kreativitas dalam merancang tampilan dan alur game",
+        "Meningkatkan konsistensi, kesabaran, dan ketekunan dalam menyelesaikan tugas",
+        "Memperkuat pemahaman matematika dasar (koordinat, ukuran, kecepatan) lewat praktik",
+        "Mendorong rasa percaya diri anak melalui karya nyata berupa game buatan sendiri",
+        "Membangun fondasi keterampilan digital dan pemrograman sejak dini"
+    ],
+    pdf: "https://drive.google.com/file/d/1LMM-gBYt-oh0i3-BJJBjvk_d3cwNdZqG/view?usp=sharing"
+},
     {
         title: "Latihan 04 - Game Scratch",
         image: "images/latihan04.jpg",
