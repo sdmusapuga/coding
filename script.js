@@ -23,12 +23,9 @@ projects.forEach((proj, index) => {
   const card = document.createElement("div");
   card.className = "project-card";
   card.dataset.index = index;
-
   card.innerHTML = `
-      <img src="${proj.image}" alt="${proj.title}">
-      <div class="project-info">
-        <h3>${proj.title}</h3>
-      </div>
+    <img src="${proj.image}" alt="${proj.title}">
+    <div class="project-info"><h3>${proj.title}</h3></div>
   `;
   grid.appendChild(card);
 });
@@ -41,6 +38,7 @@ const modalBelajar = document.getElementById("modalBelajar");
 const modalTujuan = document.getElementById("modalTujuan");
 const tutorialLink = document.getElementById("tutorialLink");
 const closeBtn = document.querySelector(".close-btn");
+const fullscreenBtn = document.getElementById("fullscreenBtn");
 
 document.querySelectorAll(".project-card").forEach(card => {
   card.addEventListener("click", () => {
@@ -48,7 +46,7 @@ document.querySelectorAll(".project-card").forEach(card => {
     modal.style.display = "flex";
 
     modalTitle.textContent = proj.title;
-    modalScratch.src = `https://scratch.mit.edu/projects/embed/${proj.scratchId}/?autostart=false`;
+    modalScratch.src = `https://scratch.mit.edu/projects/embed/${proj.scratchId}/?autostart=false&ui=false`;
     modalBelajar.innerHTML = proj.belajar.map(item => `<li>${item}</li>`).join("");
     modalTujuan.innerHTML = proj.tujuan.map(item => `<li>${item}</li>`).join("");
     tutorialLink.href = proj.pdf;
@@ -64,5 +62,11 @@ window.addEventListener("click", (e) => {
   if (e.target === modal) {
     modal.style.display = "none";
     modalScratch.src = "";
+  }
+});
+
+fullscreenBtn.addEventListener("click", () => {
+  if (modalScratch.requestFullscreen) {
+    modalScratch.requestFullscreen();
   }
 });
