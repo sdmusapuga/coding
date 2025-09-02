@@ -1,41 +1,26 @@
-<!DOCTYPE html>
-<html lang="id">
+<!-- Modal -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <button class="close-btn" aria-label="Tutup Popup">&times; Tutup</button>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Latihan Game Scratch</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+        <h2 id="modalTitle"></h2>
 
-<body>
-    <!-- Tombol contoh -->
-    <button class="openModalBtn" data-id="861259209">🎮 Mainkan Game</button>
+        <!-- Area main Scratch -->
+        <div class="scratch-container">
+            <iframe id="modalScratch" allowtransparency="true" width="100%" height="400"
+                frameborder="0" scrolling="no" allowfullscreen></iframe>
+        </div>
 
-    <!-- Modal -->
-    <div id="projectModal" class="modal">
-        <span class="close">&times;</span>
+        <div class="modal-scroll">
+            <h4>Yang Dipelajari:</h4>
+            <ul id="modalBelajar"></ul>
+            <h4>Tujuan:</h4>
+            <ul id="modalTujuan"></ul>
+        </div>
 
-        <div class="modal-body">
-            <!-- Game -->
-            <iframe id="modalScratch" allowfullscreen></iframe>
-
-            <!-- Materi -->
-            <div class="materi-panel">
-                <h3>Yang Dipelajari</h3>
-                <ul id="materiList"></ul>
-
-                <h3>Tujuan</h3>
-                <ul id="tujuanList"></ul>
-
-                <div class="tutorial-btn">
-                    <a id="tutorialLink" href="#" target="_blank">📘 Pelajari</a>
-                </div>
-            </div>
+        <!-- Tombol PDF -->
+        <div class="tutorial-btn">
+            <a id="tutorialLink" href="#" target="_blank">📘 Pelajari</a>
         </div>
     </div>
-
-    <script src="script.js"></script>
-</body>
-
-</html>
+</div>
