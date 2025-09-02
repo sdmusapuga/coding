@@ -9,7 +9,6 @@
 </head>
 
 <body>
-
   <!-- Header -->
   <header class="hero-header">
     <h1>Galeri Project Coding <span>SD MUSAPUGA</span></h1>
@@ -22,9 +21,7 @@
 
   <!-- Main Content -->
   <main>
-    <section class="grid-container" id="projectGrid">
-      <!-- Card project akan dimasukkan lewat JavaScript -->
-    </section>
+    <section class="grid-container" id="projectGrid"></section>
   </main>
 
   <!-- Footer -->
@@ -36,18 +33,10 @@
   <div id="modal" class="modal">
     <div class="modal-content">
       <button class="close-btn" aria-label="Tutup Popup">&times;</button>
-
       <h2 id="modalTitle"></h2>
-
-      <!-- Scratch Game -->
       <div class="scratch-container">
-        <iframe id="modalScratch" allowtransparency="true"
-          width="100%" height="500"
-          frameborder="0" scrolling="no" allowfullscreen>
-        </iframe>
+        <iframe id="modalScratch" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen></iframe>
       </div>
-
-      <!-- Info Pembelajaran -->
       <div class="modal-info">
         <div class="info-box">
           <h4>Yang Dipelajari</h4>
@@ -58,16 +47,14 @@
           <ul id="modalTujuan"></ul>
         </div>
       </div>
-
-      <!-- Tombol PDF -->
       <div class="tutorial-btn">
         <a id="tutorialLink" href="#" target="_blank">📘 Pelajari</a>
+        <button id="fullscreenBtn">⛶ Fullscreen</button>
       </div>
     </div>
   </div>
 
   <!-- Script -->
   <script src="script.js"></script>
-
 </body>
 </html>
