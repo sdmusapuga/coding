@@ -28,7 +28,7 @@ const projects = [
       "Melatih logika pemrograman dasar",
       "Memahami koordinat X dan Y di Scratch"
     ],
-    pdf: "tutorial/latihan01.pdf"
+    pdf: "tutorial/latihan04.pdf"
   }
 ];
 
