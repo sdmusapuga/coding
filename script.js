@@ -29,7 +29,7 @@ const projects = [
 },
    {
     title: "Modul 02 - GAME LOMPAT & SKOR",
-    image: "images/latihan02.jpg",
+    image: "images/latihan04.jpg",
     scratchId: "1205893568",
     belajar: [
         "Menggunakan blok acara (when green flag clicked) untuk memulai game",
