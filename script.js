@@ -1,3 +1,4 @@
+// Data project
 const projects = [
   {
     title: "Latihan 01 - Game Scratch",
@@ -30,7 +31,7 @@ projects.forEach((proj, index) => {
   grid.appendChild(card);
 });
 
-// Modal
+// Modal elements
 const modal = document.getElementById("modal");
 const modalScratch = document.getElementById("modalScratch");
 const modalTitle = document.getElementById("modalTitle");
@@ -40,6 +41,7 @@ const tutorialLink = document.getElementById("tutorialLink");
 const closeBtn = document.querySelector(".close-btn");
 const fullscreenBtn = document.getElementById("fullscreenBtn");
 
+// Buka modal dan langsung load game
 document.querySelectorAll(".project-card").forEach(card => {
   card.addEventListener("click", () => {
     const proj = projects[card.dataset.index];
@@ -53,11 +55,13 @@ document.querySelectorAll(".project-card").forEach(card => {
   });
 });
 
+// Tutup modal
 closeBtn.addEventListener("click", () => {
   modal.style.display = "none";
   modalScratch.src = "";
 });
 
+// Tutup modal kalau klik luar area
 window.addEventListener("click", (e) => {
   if (e.target === modal) {
     modal.style.display = "none";
@@ -65,6 +69,7 @@ window.addEventListener("click", (e) => {
   }
 });
 
+// Fullscreen iframe
 fullscreenBtn.addEventListener("click", () => {
   if (modalScratch.requestFullscreen) {
     modalScratch.requestFullscreen();
