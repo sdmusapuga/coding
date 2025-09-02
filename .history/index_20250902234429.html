@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Project Coding SD MUSAPUGA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="hero-header">
+        <h1>Galeri Project Coding <span>SD MUSAPUGA</span></h1>
+        <p>
+            <strong>Belajar Coding Itu Menyenangkan!</strong> –
+            Dari game sederhana, animasi, hingga aplikasi kecil,
+            semua karya siswa SD MUSAPUGA ditampilkan di sini.
+        </p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="grid-container" id="projectGrid">
+            <!-- Card project dimasukkan lewat JavaScript -->
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2025 <strong>SD MUSAPUGA</strong> – Ekstrakurikuler Coding</p>
+    </footer>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <button class="close-btn" aria-label="Tutup Popup">&times; Tutup</button>
+
+            <!-- Judul Project -->
+            <h2 id="modalTitle"></h2>
+
+            <!-- Game Scratch -->
+            <div class="scratch-container">
+                <iframe id="modalScratch" allowtransparency="true" width="100%" height="400" frameborder="0"
+                    scrolling="no" allowfullscreen></iframe>
+            </div>
+
+            <!-- Info Pembelajaran -->
+            <div class="modal-scroll">
+                <h4>Yang Dipelajari:</h4>
+                <ul id="modalBelajar"></ul>
+                <h4>Tujuan:</h4>
+                <ul id="modalTujuan"></ul>
+            </div>
+
+            <!-- Tombol PDF -->
+            <div class="tutorial-btn">
+                <a id="tutorialLink" href="#" target="_blank">📘 Pelajari</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

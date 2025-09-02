@@ -1,0 +1,19 @@
+.tutorial-btn {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.tutorial-btn a {
+    display: inline-block;
+    background: #38bdf8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.tutorial-btn a:hover {
+    background: #0ea5e9;
+}

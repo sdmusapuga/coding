@@ -1,0 +1,262 @@
+/* ===== RESET & BASE ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f9fafb, #e0f2fe);
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+/* ===== HEADER ===== */
+.hero-header {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: linear-gradient(135deg, #0ea5e9, #2563eb);
+    color: #fff;
+    border-radius: 0 0 1.5rem 1.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    animation: fadeInDown 0.8s ease;
+}
+
+.hero-header h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #facc15;
+}
+
+.hero-header h1 span {
+    color: #fff;
+}
+
+.hero-header p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #e2e8f0;
+}
+
+/* ===== GRID PROJECT ===== */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    padding: 2rem;
+    animation: fadeInUp 0.8s ease;
+}
+
+.project-card {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.project-info {
+    padding: 1rem;
+    text-align: center;
+}
+
+.project-info h3 {
+    color: #2563eb;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* ===== MODAL ===== */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(4px);
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.4s ease;
+}
+
+.modal-content {
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    width: 90%;
+    max-width: 850px;
+    max-height: 90vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    animation: zoomIn 0.5s ease;
+    position: relative;
+}
+
+.modal h2 {
+    color: #0ea5e9;
+    margin-bottom: 10px;
+}
+
+.scratch-container {
+    margin: 10px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.modal-scroll {
+    flex: 1;
+    overflow-y: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-top: 1px solid #e5e7eb;
+}
+
+.modal-scroll h4 {
+    color: #2563eb;
+    margin-bottom: 5px;
+}
+
+.modal-scroll ul {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+/* Tombol Close */
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    background: #ef4444;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.close-btn:hover {
+    background: #dc2626;
+}
+
+/* Tombol PDF */
+.tutorial-btn {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.tutorial-btn a {
+    display: inline-block;
+    background: #0ea5e9;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.2s;
+}
+
+.tutorial-btn a:hover {
+    background: #0284c7;
+    transform: scale(1.05);
+}
+
+/* ===== FOOTER ===== */
+.site-footer {
+    text-align: center;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #0ea5e9, #2563eb);
+    color: #f9fafb;
+    font-size: 0.95rem;
+    border-top: 3px solid rgba(255, 255, 255, 0.2);
+}
+
+.site-footer strong {
+    color: #facc15;
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        transform: scale(0.9);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .hero-header h1 {
+        font-size: 2rem;
+    }
+
+    .grid-container {
+        padding: 1rem;
+        gap: 15px;
+    }
+
+    .project-card img {
+        height: 150px;
+    }
+}
