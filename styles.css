@@ -1,9 +1,3 @@
-/* Hilangkan kontrol media agar downloader tidak bisa hook */
-iframe::-webkit-media-controls-enclosure,
-iframe::-webkit-media-controls-panel,
-iframe::-webkit-media-controls-play-button {
-  display: none !important;
-}
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
