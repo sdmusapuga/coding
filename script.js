@@ -1,7 +1,7 @@
 // Data project
 const projects = [
   {
-    title: "Latihan 01 - GAME FEEDING FRENZY",
+    title: "Latihan 01 - Membuat Game FEEDING FRENZY",
     image: "images/latihan01.jpg",
     scratchId: "1094506269",
     belajar: [
@@ -28,7 +28,7 @@ const projects = [
     pdf: "https://drive.google.com/file/d/1LMM-gBYt-oh0i3-BJJBjvk_d3cwNdZqG/view?usp=sharing"
 },
    {
-    title: "Modul 02 - GAME LOMPAT & SKOR",
+    title: "Latihan 02 - Membuat Game JUMPING RABBIT ADVENTURE",
     image: "images/latihan04.jpg",
     scratchId: "1205893568",
     belajar: [
@@ -52,22 +52,34 @@ const projects = [
     ],
     pdf: "https://drive.google.com/file/d/1LU3PCvi7utdKZLZzjd7zjWx9usFgBB2z/view?usp=sharing"
 },
+  {
+    title: "Latihan 03 – Membuat Game FLAPPY BIRD",
+    image: "images/latihan05.jpg",
+    scratchId: "1207429223",
+    belajar: [
+        "Menggunakan blok acara (when green flag clicked) untuk memulai game",
+        "Membuat sprite burung bisa terbang dengan blok when space key pressed + change y",
+        "Menambahkan efek gravitasi menggunakan loop forever + change y by –2",
+        "Membuat pipa muncul dari kanan ke kiri dengan blok create clone of dan move",
+        "Menggunakan koordinat X dan Y untuk mengatur posisi awal pipa secara acak",
+        "Mendeteksi tabrakan dengan sensor touching (pipa/tepi bawah) menggunakan if then",
+        "Mengatur skor dengan variabel: bertambah setiap kali burung melewati celah pipa",
+        "Menambahkan efek suara saat loncat (flap) dan saat tabrakan (game over)",
+        "Menggunakan blok broadcast untuk mengatur transisi dari main game ke layar Game Over",
+        "Menerapkan konsep loop, kondisi, dan variabel agar gameplay terasa menantang dan interaktif"
+    ],
+    tujuan: [
+        "Melatih logika pemrograman dengan konsep gravitasi, collision detection, dan cloning objek",
+        "Mengembangkan kemampuan problem solving melalui debugging gerakan dan skor",
+        "Memahami penggunaan variabel sebagai pencatat data (skor) dan kontrol alur game",
+        "Mengasah koordinasi mata-tangan dan konsentrasi melalui gameplay yang cepat",
+        "Menumbuhkan kreativitas dengan menambahkan variasi pipa, kecepatan, dan desain burung",
+        "Membangun mindset anak sebagai pembuat game, bukan hanya pemain",
+        "Memberikan pengalaman nyata dalam menciptakan game populer dengan teknik sederhana Scratch"
+    ],
+    pdf: "https://drive.google.com/file/d/1LGVroBWw4BSiu2hXQKDHwVRhSzYzRDbk/view?usp=sharing"
+},
 
-    {
-        title: "Latihan 05 - Game Scratch", 
-        image: "images/latihan05.jpg",
-        scratchId: "1207429223",
-        belajar: [
-            "Menggunakan blok gerak untuk mengontrol sprite",
-            "Belajar kondisi jika menyentuh objek",
-            "Menambahkan skor saat berhasil"
-        ],
-        tujuan: [
-            "Melatih logika pemrograman dasar",
-            "Memahami koordinat X dan Y di Scratch"
-        ],
-        pdf: "https://drive.google.com/file/d/1TTuexrAbSlfF9-bXF76eZb9rPbIRp6pK/view?usp=sharing" 
-    }
 ];
 
 // Generate Cards
