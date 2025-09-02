@@ -13,7 +13,7 @@ const projects = [
             "Melatih logika pemrograman dasar",
             "Memahami koordinat X dan Y di Scratch"
         ],
-        pdf: "tutorial/latihan01.pdf"
+        pdf: "https://drive.google.com/file/d/1LMM-gBYt-oh0i3-BJJBjvk_d3cwNdZqG/view?usp=sharing"
     },
     {
         title: "Latihan 04 - Game Scratch",
