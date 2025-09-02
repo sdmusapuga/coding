@@ -132,13 +132,6 @@ footer.site-footer {
   border: none;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
 }
-.scratch-container::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: transparent;
-  pointer-events: none
-}
 
 .modal-info {
   display: flex;
