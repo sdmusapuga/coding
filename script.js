@@ -32,7 +32,6 @@ const projects = [
     image: "images/latihan02.jpg",
     scratchId: "1205893568",
     belajar: [
-        "Menggunakan blok acara (when green flag clicked) untuk memulai game",
         "Mengatur posisi awal sprite kelinci dengan blok go to x: y:",
         "Membuat gerakan lompat halus menggunakan blok kontrol (repeat, change y)",
         "Menambahkan efek suara lompat (play sound chirp)",
@@ -57,7 +56,6 @@ const projects = [
     image: "images/latihan05.jpg",
     scratchId: "1207429223",
     belajar: [
-        "Menggunakan blok acara (when green flag clicked) untuk memulai game",
         "Membuat sprite burung bisa terbang dengan blok when space key pressed + change y",
         "Menambahkan efek gravitasi menggunakan loop forever + change y by –2",
         "Membuat pipa muncul dari kanan ke kiri dengan blok create clone of dan move",
