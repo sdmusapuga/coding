@@ -77,6 +77,30 @@ const projects = [
     ],
     pdf: "https://drive.google.com/file/d/1LGVroBWw4BSiu2hXQKDHwVRhSzYzRDbk/view?usp=sharing"
 },
+  {
+    title: "Latihan 04 – Membuat Game Ular Panjang Cari Makan",
+    image: "images/latihan06.jpg",
+    scratchId: "1209414595",
+    belajar: [
+        "Mengontrol arah gerakan ular menggunakan tombol panah (when key pressed → point in direction / change x/y)",
+        "Membuat gerakan ular bergerak terus-menerus dengan loop 'forever' dan variabel 'Speed' untuk mengatur kecepatan",
+        "Mengimplementasikan variabel 'Snake Length' dan cloning sprite untuk memperpanjang tubuh ular setiap makan",
+        "Menggunakan blok sensing dan kontrol untuk mendeteksi tabrakan dengan dinding atau tubuh ular sendiri (if touching edge / body → game over)",
+        "Membuat makanan (misalnya apel) muncul secara acak dan bertambah panjang saat dimakan (touching, go to random position, change score/length)",
+        "Menambahkan efek suara untuk aksi makan dan saat game over agar permainan lebih interaktif",
+        "Menerapkan logika loop, conditional, variabel, cloning, random untuk gameplay yang kompleks dan dinamis"
+    ],
+    tujuan: [
+        "Memahami pola perulangan dan variabel sebagai pondasi logika pemrograman visual di Scratch",
+        "Mengembangkan kemampuan problem solving melalui debugging mekanisme pertumbuhan ular dan deteksi tabrakan",
+        "Mengasah pemahaman matematika (koordinat, kecepatan, panjang) dengan praktik coding nyata",
+        "Melatih koordinasi mata-tangan dan ketelitian dalam mengontrol pergerakan cepat",
+        "Menumbuhkan kreativitas anak dengan memungkinkan modifikasi desain ular, makanan, atau aturan permainan",
+        "Membangun kepercayaan diri karena anak berhasil menciptakan versi kustom game klasik secara mandiri"
+    ],
+    pdf: "https://drive.google.com/file/d/1f_HBQC-Q3bO7VSZfPAvh_IRGcFyfBamh/view?usp=sharing"
+},
+
 
 ];
 
