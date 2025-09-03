@@ -29,7 +29,7 @@ const projects = [
 },
    {
     title: "Latihan 02 - Membuat Game JUMPING RABBIT ADVENTURE",
-    image: "images/latihan04.jpg",
+    image: "images/latihan02.jpg",
     scratchId: "1205893568",
     belajar: [
         "Menggunakan blok acara (when green flag clicked) untuk memulai game",
