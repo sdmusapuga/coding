@@ -52,7 +52,7 @@ const projects = [
     pdf: "https://drive.google.com/file/d/1LU3PCvi7utdKZLZzjd7zjWx9usFgBB2z/view?usp=sharing"
 },
   {
-    title: "Latihan 03 – Membuat Game FLAPPY BIRD",
+    title: "Latihan 03 - Membuat Game FLAPPY BIRD",
     image: "images/latihan05.jpg",
     scratchId: "1207429223",
     belajar: [
@@ -78,7 +78,7 @@ const projects = [
     pdf: "https://drive.google.com/file/d/1LGVroBWw4BSiu2hXQKDHwVRhSzYzRDbk/view?usp=sharing"
 },
   {
-    title: "Latihan 04 – Membuat Game Ular Panjang Cari Makan",
+    title: "Latihan 04 - Membuat Game ULAR PANJANG CARI MAKAN",
     image: "images/latihan06.jpg",
     scratchId: "1209414595",
     belajar: [
@@ -99,6 +99,32 @@ const projects = [
         "Membangun kepercayaan diri karena anak berhasil menciptakan versi kustom game klasik secara mandiri"
     ],
     pdf: "https://drive.google.com/file/d/1f_HBQC-Q3bO7VSZfPAvh_IRGcFyfBamh/view?usp=sharing"
+},
+{
+    title: "Latihan 05 - Membuat Game KUCING TERBANG KUMPULKAN KOIN",
+    image: "images/latihan07.jpg",
+    scratchId: "1210865011",
+    belajar: [
+        "Memulai game dengan blok 'when green flag clicked' dan atur posisi awal kucing (go to x:-150, y:0)",
+        "Menggerakkan kucing naik-turun dengan blok 'when up/down arrow pressed' → change y by ±5",
+        "Menambahkan latar bergulir dengan sprite bintang yang bergerak (go to layer belakang, glide, hide/show loop)",
+        "Membuat objek koin muncul secara acak dan bergerak ke kiri (go to x:240, y: random; glide; hide; repeat)",
+        "Membuat variabel 'koin' dan 'missed' untuk mencatat koin yang dikumpulkan dan yang terlewat",
+        "Menambahkan skor naik saat kucing menyentuh koin: 'if touching' → change 'koin' by 1, play sound, hide coin",
+        "Menambah variabel 'missed' ketika koin melewati tepi kanan/kiri: 'if touching edge' → change missed by 1",
+        "Mengakhiri permainan ketika kelewatan mencapai batas (misal missed = 3): broadcast 'Game Over' + stop all",
+        "Menampilkan layar Game Over dengan sprite teks saat menerima broadcast dan menghentikan script"
+    ],
+    tujuan: [
+        "Memahami event-driven programming: respon terhadap input (panah), game loop, dan kondisi akhir permainan",
+        "Mengasah logika interaksi antar objek melalui sensor, kondisi, dan variabel interaktif",
+        "Melatih matematika dasar: koordinat, randomisasi posisi, kecepatan gerak obiect",
+        "Memupuk kemampuan problem solving lewat debugging logika koin & deteksi tabrakan",
+        "Mengasah kreativitas dengan menambahkan suara, variasi desain koin dan background jalur luar angkasa",
+        "Meningkatkan fokus dan refleks anak lewat gameplay dinamis menghindari rintangan sambil mengumpulkan koin",
+        "Membangun rasa percaya diri karena anak menghasilkan game berbasis misi fungsional sendiri"
+    ],
+    pdf: "https://drive.google.com/file/d/1TTuexrAbSlfF9-bXF76eZb9rPbIRp6pK/view?usp=sharing"
 },
 
 
