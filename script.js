@@ -125,7 +125,33 @@ const projects = [
         "Membangun rasa percaya diri karena anak menghasilkan game berbasis misi fungsional sendiri"
     ],
     pdf: "https://drive.google.com/file/d/1TTuexrAbSlfF9-bXF76eZb9rPbIRp6pK/view?usp=sharing"
+},{
+    title: "Latihan 06 - Membuat Game TENDANG BOLA KE GAWANG",
+    image: "images/latihan08.jpg",
+    scratchId: "1217409016",
+    belajar: [
+        "Memulai game dengan blok 'when green flag clicked', set skor = 0 dan timer = 30",
+        "Mengatur posisi awal bola di bawah lapangan (go to x:-4, y:-117)",
+        "Menggerakkan bola ke kiri/kanan dengan tombol panah (if key left/right pressed → change x by ±3)",
+        "Menendang bola ke atas dengan tombol spasi (repeat until touching gawang/monyet/tepi layar → change y by 10)",
+        "Menambahkan penjaga gawang (Monkey) yang bergerak bolak-balik dengan glide atau posisi acak",
+        "Menambahkan variabel 'score' untuk mencatat gol yang berhasil",
+        "Mendeteksi kondisi gol (touching color gawang) → change score by 1, bunyikan 'Goal Cheer', tampilkan pesan 'GOLL!!'",
+        "Mendeteksi kondisi gagal (touching Monkey) → bunyikan 'Boing', tampilkan pesan 'Gagal!'",
+        "Menambahkan timer 30 detik: setiap 1 detik kurangi timer, hentikan game saat timer = 0"
+    ],
+    tujuan: [
+        "Memahami konsep koordinat dan pergerakan sprite di Scratch",
+        "Melatih penggunaan kondisi if-else untuk membuat logika permainan (gol/gagal)",
+        "Menggunakan variabel untuk mencatat skor dan waktu permainan",
+        "Mengenal penggunaan loop (repeat until, forever) untuk mengontrol alur game",
+        "Mengembangkan logika pemrograman sederhana berbasis interaksi objek",
+        "Mengasah fokus dan refleks siswa melalui permainan yang menantang",
+        "Meningkatkan kreativitas anak dengan menambahkan suara, animasi, dan variasi gerakan penjaga gawang"
+    ],
+    pdf: "https://drive.google.com/file/d/1zCD0EwqYS6TksGnmJ5HsJ1daX_N_xgC6/view?usp=sharing"
 },
+
 
 
 ];
