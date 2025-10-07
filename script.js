@@ -150,9 +150,32 @@ const projects = [
         "Meningkatkan kreativitas anak dengan menambahkan suara, animasi, dan variasi gerakan penjaga gawang"
     ],
     pdf: "https://drive.google.com/file/d/1zCD0EwqYS6TksGnmJ5HsJ1daX_N_xgC6/view?usp=sharing"
-},
-
-
+},{
+    title: "Latihan 07 - Membuat Game ROKET VS MUSUH",
+    image: "images/latihan09.jpg",
+    scratchId: "1225705375", 
+    belajar: [
+        "Menggerakkan sprite roket ke atas dan bawah menggunakan tombol panah",
+        "Menembakkan peluru dengan tombol spasi menggunakan clone",
+        "Membuat musuh muncul otomatis dan bergerak dari kanan ke kiri",
+        "Menambahkan sistem skor dan nyawa dengan variabel",
+        "Menentukan kondisi kalah (nyawa habis) dan menang (skor mencapai target)",
+        "Menambahkan efek suara pada tembakan dan tabrakan",
+        "Menampilkan pesan GAME OVER dan YOU WIN menggunakan broadcast",
+        "Menambahkan animasi dan efek visual seperti ledakan atau suara latar",
+        "Mengatur jumlah clone maksimum agar game tetap seimbang"
+    ],
+    tujuan: [
+        "Memahami penggunaan keyboard untuk menggerakkan dan menembak sprite",
+        "Menerapkan konsep clone untuk membuat objek muncul otomatis",
+        "Menggunakan variabel untuk mencatat skor, nyawa, dan status permainan",
+        "Melatih logika percabangan (if-else) dan kontrol alur dengan broadcast",
+        "Meningkatkan keterampilan mengelola interaksi antar objek dalam game",
+        "Mengembangkan kreativitas dalam menambah efek suara dan animasi",
+        "Melatih kemampuan berpikir logis dan tanggap melalui permainan menembak"
+    ],
+    pdf: "https://drive.google.com/file/d/1D0yAOgkrROqNwvCZVaIhLOx4atrYWcXb/view?usp=sharing"
+}
 
 ];
 
