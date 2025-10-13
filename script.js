@@ -175,8 +175,32 @@ const projects = [
         "Melatih kemampuan berpikir logis dan tanggap melalui permainan menembak"
     ],
     pdf: "https://drive.google.com/file/d/1D0yAOgkrROqNwvCZVaIhLOx4atrYWcXb/view?usp=sharing"
+},{
+    title: "Latihan 08 - Membuat Game BALAPAN PENYELAM",
+    image: "images/latihan10.jpg",
+    scratchId: "1228495466", 
+    belajar: [
+        "Menggunakan broadcast message untuk mengatur mulai dan selesai permainan",
+        "Membuat dua sprite penyelam yang dapat bergerak ke arah garis finish",
+        "Mengatur gerakan manual (spasi) untuk pemain dan otomatis (acak) untuk lawan",
+        "Menambahkan variabel Waktu, Pemenang, dan gameSelesai untuk logika permainan",
+        "Menentukan kondisi kemenangan berdasarkan siapa yang lebih dulu mencapai garis finish",
+        "Menampilkan pesan pemenang dan waktu tempuh dengan timer",
+        "Menggunakan loop dan kondisi if untuk mengontrol jalannya game",
+        "Menambahkan efek animasi kostum saat penyelam bergerak",
+        "Mengatur tampilan latar bawah laut agar lebih menarik dan interaktif"
+    ],
+    tujuan: [
+        "Memahami cara menggunakan broadcast untuk sinkronisasi antar sprite di Scratch",
+        "Melatih logika kondisi untuk menentukan pemenang permainan",
+        "Menerapkan penggunaan variabel untuk mencatat waktu dan hasil lomba",
+        "Membuat animasi sprite dengan perubahan kostum (next costume)",
+        "Mengembangkan kemampuan berpikir algoritmik melalui permainan kompetitif",
+        "Meningkatkan keterampilan dalam mendesain dan memprogram permainan sederhana",
+        "Menumbuhkan kreativitas dengan menambahkan efek suara dan visual bertema laut"
+    ],
+    pdf: "https://drive.google.com/file/d/1WMzJ3LwQ-xsnRKdvp3Y3zX_4o24y57L-/view?usp=sharing"
 }
-
 ];
 
 // Generate Cards
