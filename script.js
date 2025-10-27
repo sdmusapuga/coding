@@ -200,7 +200,33 @@ const projects = [
         "Menumbuhkan kreativitas dengan menambahkan efek suara dan visual bertema laut"
     ],
     pdf: "https://drive.google.com/file/d/1WMzJ3LwQ-xsnRKdvp3Y3zX_4o24y57L-/view?usp=sharing"
+},{
+    title: "Latihan 09 - Membuat Game MENANGKAP APEL DENGAN KERANJANG",
+    image: "images/latihan11.jpg",
+    scratchId: "1234189379", 
+    belajar: [
+        "Menggerakkan sprite keranjang ke kiri dan kanan menggunakan tombol panah",
+        "Menjatuhkan apel dari atas secara acak menggunakan perintah clone",
+        "Menambahkan sistem skor yang bertambah jika apel tertangkap dan berkurang jika terlewat",
+        "Mengatur kondisi Game Over saat skor mencapai batas tertentu (misalnya -1)",
+        "Menggunakan pesan broadcast untuk menampilkan tulisan GAME OVER",
+        "Menambahkan efek suara saat apel tertangkap atau terlewat",
+        "Menggunakan logika if dan repeat until untuk kontrol pergerakan apel",
+        "Membuat game yang interaktif dan melatih refleks pemain",
+        "Menambahkan elemen visual dan latar belakang agar tampilan lebih menarik"
+    ],
+    tujuan: [
+        "Melatih logika pemrograman dasar menggunakan Scratch",
+        "Memahami konsep variabel, kondisi, dan perulangan dalam game",
+        "Menggunakan clone untuk membuat objek muncul berulang secara otomatis",
+        "Menentukan kondisi menang dan kalah berdasarkan nilai skor",
+        "Mengembangkan keterampilan berpikir logis dan pengambilan keputusan cepat",
+        "Meningkatkan kreativitas melalui desain karakter dan latar permainan",
+        "Meningkatkan kemampuan anak dalam membuat game sederhana berbasis interaksi"
+    ],
+    pdf: "https://drive.google.com/file/d/1LKCDayCG9CO4cmrYkeJUHSIfwe5kgQ9r/view?usp=sharing"
 }
+
 ];
 
 // Generate Cards
