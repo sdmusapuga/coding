@@ -225,7 +225,33 @@ const projects = [
         "Meningkatkan kemampuan anak dalam membuat game sederhana berbasis interaksi"
     ],
     pdf: "https://drive.google.com/file/d/1LKCDayCG9CO4cmrYkeJUHSIfwe5kgQ9r/view?usp=sharing"
+},{
+    title: "Latihan 10 - Membuat Game MEMANAH SASARAN",
+    image: "images/latihan12.jpg",
+    scratchId: "1237537788", 
+    belajar: [
+        "Menggerakkan busur panah mengikuti arah kursor mouse",
+        "Menembakkan anak panah ke papan sasaran menggunakan tombol spasi",
+        "Membuat papan sasaran bergerak otomatis ke kanan dan kiri",
+        "Menambahkan sistem skor yang bertambah setiap kali panah mengenai papan",
+        "Menentukan kondisi menang saat skor mencapai batas tertentu (misalnya 6 poin)",
+        "Menggunakan pesan broadcast untuk menampilkan tulisan YOU WIN",
+        "Menggunakan fitur clone untuk membuat panah baru setiap kali menembak",
+        "Melatih logika arah dan deteksi tabrakan antar sprite",
+        "Menambahkan efek suara saat panah mengenai target"
+    ],
+    tujuan: [
+        "Memahami konsep gerak otomatis dan arah sprite menggunakan Scratch",
+        "Mengenal penggunaan variabel untuk menyimpan skor permainan",
+        "Mempelajari logika perulangan dan kondisi (if–else) dalam game",
+        "Menggunakan broadcast untuk mengatur alur kemenangan",
+        "Meningkatkan kemampuan berpikir logis melalui interaksi antar sprite",
+        "Melatih koordinasi antara kontrol pemain dan logika program",
+        "Mengembangkan kreativitas dalam membuat game interaktif berbasis refleks"
+    ],
+    pdf: "https://drive.google.com/file/d/1bmBK-iFA1BQTwFZozO0PBjgqAR2sIWcH/view?usp=sharing"
 }
+
 
 ];
 
