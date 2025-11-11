@@ -252,7 +252,7 @@ const projects = [
     pdf: "https://drive.google.com/file/d/1bmBK-iFA1BQTwFZozO0PBjgqAR2sIWcH/view?usp=sharing"
 },{
     title: "Latihan 11 - Game PILIH MAKANAN SEHAT!",
-    image: "images/latihan11.jpg",
+    image: "images/latihan13.jpg",
     scratchId: "1240784890",
     belajar: [
         "Menggerakkan karakter Abby ke kiri dan kanan menggunakan tombol panah",
