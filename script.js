@@ -250,6 +250,31 @@ const projects = [
         "Mengembangkan kreativitas dalam membuat game interaktif berbasis refleks"
     ],
     pdf: "https://drive.google.com/file/d/1bmBK-iFA1BQTwFZozO0PBjgqAR2sIWcH/view?usp=sharing"
+},{
+    title: "Latihan 11 - Game PILIH MAKANAN SEHAT!",
+    image: "images/latihan11.jpg",
+    scratchId: "1240784890",
+    belajar: [
+        "Menggerakkan karakter Abby ke kiri dan kanan menggunakan tombol panah",
+        "Membuat makanan sehat (apel, wortel, dll) jatuh dari atas layar secara acak",
+        "Menambahkan makanan tidak sehat (minuman bersoda, permen, burger) yang harus dihindari",
+        "Menentukan logika skor: +1 untuk makanan sehat dan -1 untuk makanan tidak sehat",
+        "Menampilkan pesan kemenangan ketika skor mencapai batas tertentu (misalnya 10 poin)",
+        "Menggunakan perulangan forever dan kondisi if–else untuk mendeteksi tabrakan",
+        "Menambahkan efek suara saat pemain menangkap makanan",
+        "Mengatur sprite agar muncul secara acak untuk melatih refleks pemain",
+        "Menampilkan pesan edukatif seperti 'Kamu Hebat! Kamu makan sehat!'"
+    ],
+    tujuan: [
+        "Mengenal perbedaan makanan sehat dan tidak sehat melalui permainan edukatif",
+        "Melatih kemampuan berpikir logis dengan konsep variabel skor di Scratch",
+        "Memahami cara kerja kondisi if–else untuk menentukan hasil permainan",
+        "Mempelajari penggunaan perulangan dan deteksi tabrakan antar sprite",
+        "Mengembangkan koordinasi mata dan tangan dalam mengendalikan karakter",
+        "Mendorong kebiasaan berpikir kritis dan cepat mengambil keputusan",
+        "Menumbuhkan kesadaran pentingnya pola makan sehat melalui media interaktif"
+    ],
+    pdf: "https://drive.google.com/file/d/1dmdVsqOHx0R3hBLn5fqfiInIZgndI8Qx/view?usp=sharing"
 }
 
 
