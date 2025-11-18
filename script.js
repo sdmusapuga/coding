@@ -275,7 +275,36 @@ const projects = [
         "Menumbuhkan kesadaran pentingnya pola makan sehat melalui media interaktif"
     ],
     pdf: "https://drive.google.com/file/d/1dmdVsqOHx0R3hBLn5fqfiInIZgndI8Qx/view?usp=sharing"
+},{
+    title: "Latihan 12 - Membuat Game Menambak Burung",
+    image: "images/latihan14.jpg",
+    scratchId: "1243858516",
+    belajar: [
+        "Menggerakkan sprite senjata ke kiri dan kanan menggunakan tombol panah",
+        "Mengarahkan senjata mengikuti arah mouse-pointer untuk membidik musuh",
+        "Membuat peluru sebagai clone yang ditembakkan sesuai arah senjata",
+        "Menghasilkan burung (Toucan) secara acak dengan sistem clone",
+        "Membuat burung bergerak ke berbagai arah dan memantul (bounce) ketika menyentuh tepi",
+        "Mendeteksi tabrakan antara peluru dan burung untuk menambah skor",
+        "Menambahkan logika kalah ketika burung menyentuh senjata",
+        "Menampilkan pesan YOU WIN ketika skor mencapai batas tertentu",
+        "Menampilkan pesan YOU LOSE ketika senjata disentuh oleh burung",
+        "Menggunakan broadcast (YOU WIN & YOU LOSE) untuk mengatur akhir game",
+        "Memahami cara kerja variabel ArahSenjata dan score dalam game"
+    ],
+    tujuan: [
+        "Memahami konsep arah dan gerakan dalam Scratch menggunakan mouse-pointer",
+        "Mengenal cara membuat objek tembakan menggunakan clone",
+        "Menguasai teknik membuat musuh bergerak acak dengan sistem clone",
+        "Melatih kemampuan menggunakan kondisi if untuk mendeteksi tabrakan",
+        "Mengembangkan logika berpikir dengan menggunakan variabel dan kondisi kemenangan",
+        "Meningkatkan koordinasi mata dan tangan saat menembak burung",
+        "Mengajarkan fokus, ketelitian, dan kemampuan mengambil keputusan cepat",
+        "Memahami penggunaan broadcast dalam mengendalikan alur permainan"
+    ],
+    pdf: "https://drive.google.com/file/d/1L0aHTPBZnpixxncjLW8jukihLO6zPKJJ/view?usp=sharing"
 }
+
 
 
 ];
