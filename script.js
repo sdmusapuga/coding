@@ -303,7 +303,31 @@ const projects = [
         "Memahami penggunaan broadcast dalam mengendalikan alur permainan"
     ],
     pdf: "https://drive.google.com/file/d/1L0aHTPBZnpixxncjLW8jukihLO6zPKJJ/view?usp=sharing"
+},{
+    title: "Latihan 13 - Animasi Orang Berjalan dan Melompat",
+    image: "images/latihan15.jpg",
+    scratchId: "1247305537",
+    belajar: [
+        "Memahami cara membuat sprite berjalan otomatis menggunakan perintah move dan next costume",
+        "Mengatur sprite agar bergerak hanya ketika tidak sedang melompat",
+        "Membuat gerakan melompat menggunakan repeat dan perubahan posisi y",
+        "Mengenal penggunaan variabel isJumping untuk membatasi aksi sprite",
+        "Mengubah kostum sprite sesuai aktivitas (berjalan dan melompat)",
+        "Menerapkan logika if untuk membedakan kondisi berjalan dan melompat",
+        "Mengatur sprite memantul ketika menyentuh tepi menggunakan if on edge, bounce"
+    ],
+    tujuan: [
+        "Mengajarkan dasar-dasar gerak horizontal dan vertikal pada sprite",
+        "Melatih anak memahami konsep kondisi seperti if dan not",
+        "Memperkenalkan cara menggunakan variabel sederhana untuk mengatur perilaku sprite",
+        "Mengembangkan kemampuan membuat animasi yang terlihat hidup melalui pergantian kostum",
+        "Mengajarkan koordinasi mata dan tangan melalui kontrol tombol spasi",
+        "Meningkatkan pemahaman tentang perulangan (repeat dan forever) dalam Scratch",
+        "Membiasakan anak memahami logika program yang memisahkan dua aksi berbeda"
+    ],
+    pdf: "https://drive.google.com/file/d/1ha-1kakZcJZA8eZZIBC4FNZoaYY7NtHj/view?usp=sharing"
 }
+
 
 
 
